@@ -8,7 +8,10 @@
 
     <!-- Länkar till CSS- och JS-filer samt favicon, FontAwesome och Google-fonts. -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+
     <script src="js/main.js"></script>
+
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <script src="https://kit.fontawesome.com/e49202e377.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -47,189 +50,125 @@
         <div class="carousel-container">
             <div class="img-carousel">
                 <picture>
-                    <source srcset="assets/concretejar-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets/concretejar-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets/concretejar-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets/concretejar-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/concretejar-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/concretejar-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets/concretejar-small-jpg.jpg" alt="en grå betongburk i form av ett ansikte">
-                </picture>
-                <picture>
-                    <source srcset="assets/balloon-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets/balloon-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets/balloon-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets/balloon-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/balloon-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/balloon-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets/balloon-small-jpg.jpg" alt="en rosa avlång ballong">
-                </picture>
-                <picture>
-                    <source srcset="assets/teacup-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets/teacup-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets/teacup-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets/teacup-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/teacup-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/teacup-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets/teacup-small-jpg.jpg"
-                        alt="en temugg med blommigt mönster i svart, orange och grönt">
-                </picture>
-                <picture>
-                    <source srcset="assets/sunglasses-large-webp.webp" media="(min-width: 1024px)"
+                    <source srcset="assets/concretejar-medium-webp.webp 1x, assets/concretejar-large-webp.webp 2x"
                         type="image/webp">
-                    <source srcset="assets/sunglasses-medium-webp.webp" media="(min-width: 769px)"
+                    <source srcset="assets/concretejar-medium-jpg.jpg 1x, assets/concretejar-large-jpg.jpg 2x">
+                    <img src="assets/concretejar-medium-jpg.jpg" alt="en grå betongburk i form av ett ansikte"
+                        loading="lazy">
+                </picture>
+
+                <picture>
+                    <source srcset="assets/balloon-medium-webp.webp 1x, assets/balloon-large-webp.webp 2x"
                         type="image/webp">
-                    <source srcset="assets/sunglasses-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets/sunglasses-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/sunglasses-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/sunglasses-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets/sunglasses-small-jpg.jpg" alt="en par svarta solglasögon">
+                    <source srcset="assets/balloon-medium-jpg.jpg 1x, assets/balloon-large-jpg.jpg 2x">
+                    <img src="assets/balloon-medium-jpg.jpg" alt="en rosa avlång ballong" loading="lazy">
                 </picture>
+
                 <picture>
-                    <source srcset="assets/painting-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets/painting-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets/painting-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets/painting-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/painting-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/painting-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets/painting-small-jpg.jpg" alt="en tavla med vit ram och rosa-turkosa färger">
+                    <source srcset="assets/teacup-medium-webp.webp 1x, assets/teacup-large-webp.webp 2x"
+                        type="image/webp">
+                    <source srcset="assets/teacup-medium-jpg.jpg 1x, assets/teacup-large-jpg.jpg 2x">
+                    <img src="assets/teacup-medium-jpg.jpg" alt="en blommig tekopp i svart, orange och grönt"
+                        loading="lazy">
                 </picture>
+
                 <picture>
-                    <source srcset="assets/coffecup-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets/coffecup-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets/coffecup-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets/coffecup-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/coffecup-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/coffecup-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets/coffecup-small-jpg.jpg" alt="en vit kaffekopp med spår av kaffe">
+                    <source srcset="assets/sunglasses-medium-webp.webp 1x, assets/sunglasses-large-webp.webp 2x"
+                        type="image/webp">
+                    <source srcset="assets/sunglasses-medium-jpg.jpg 1x, assets/sunglasses-large-jpg.jpg 2x">
+                    <img src="assets/sunglasses-medium-jpg.jpg" alt="ett par svarta solglasögon" loading="lazy">
                 </picture>
+
                 <picture>
-                    <source srcset="assets/metaljar-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets//metaljar-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets//metaljar-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets//metaljar-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets//metaljar-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets//metaljar-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets//metaljar-small-jpg.jpg" alt="en brun och guldig metallburk i retrostil">
+                    <source srcset="assets/painting-medium-webp.webp 1x, assets/painting-large-webp.webp 2x"
+                        type="image/webp">
+                    <source srcset="assets/painting-medium-jpg.jpg 1x, assets/painting-large-jpg.jpg 2x">
+                    <img src="assets/painting-medium-jpg.jpg" alt="en tavla med vit ram och rosa-turkosa färger"
+                        loading="lazy">
                 </picture>
+
                 <picture>
-                    <source srcset="assets/toothbrush-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets/toothbrush-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets/toothbrush-small-webp.webp" media="(min-width: 320px)" type="image/webp">
+                    <source srcset="assets/coffecup-medium-webp.webp 1x, assets/coffecup-large-webp.webp 2x"
+                        type="image/webp">
+                    <source srcset="assets/coffecup-medium-jpg.jpg 1x, assets/coffecup-large-jpg.jpg 2x">
+                    <img src="assets/coffecup-medium-jpg.jpg" alt="en vit kaffekopp med spår av kaffe" loading="lazy">
+                </picture>
 
-                    <source srcset="assets/toothbrush-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/toothbrush-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/toothbrush-small-jpg.jpg" media="(min-width: 320px)">
+                <picture>
+                    <source srcset="assets/metaljar-medium-webp.webp 1x, assets/metaljar-large-webp.webp 2x"
+                        type="image/webp">
+                    <source srcset="assets/metaljar-medium-jpg.jpg 1x, assets/metaljar-large-jpg.jpg 2x">
+                    <img src="assets/metaljar-medium-jpg.jpg" alt="en brun och guldig metallburk i retrostil"
+                        loading="lazy">
+                </picture>
 
-                    <img src="assets/toothbrush-small-jpg.jpg" alt="en blå tandborste">
+                <picture>
+                    <source srcset="assets/toothbrush-medium-webp.webp 1x, assets/toothbrush-large-webp.webp 2x"
+                        type="image/webp">
+                    <source srcset="assets/toothbrush-medium-jpg.jpg 1x, assets/toothbrush-large-jpg.jpg 2x">
+                    <img src="assets/toothbrush-medium-jpg.jpg" alt="en blå tandborste" loading="lazy">
                 </picture>
             </div>
 
             <div class="img-carousel">
                 <picture>
-                    <source srcset="assets/concretejar-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets/concretejar-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets/concretejar-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets/concretejar-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/concretejar-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/concretejar-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets/concretejar-small-jpg.jpg" alt="en grå betongburk i form av ett ansikte">
-                </picture>
-                <picture>
-                    <source srcset="assets/balloon-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets/balloon-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets/balloon-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets/balloon-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/balloon-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/balloon-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets/balloon-small-jpg.jpg" alt="en rosa avlång ballong">
-                </picture>
-                <picture>
-                    <source srcset="assets/teacup-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets/teacup-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets/teacup-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets/teacup-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/teacup-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/teacup-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets/teacup-small-jpg.jpg"
-                        alt="en temugg med blommigt mönster i svart, orange och grönt">
-                </picture>
-                <picture>
-                    <source srcset="assets/sunglasses-large-webp.webp" media="(min-width: 1024px)"
+                    <source srcset="assets/concretejar-medium-webp.webp 1x, assets/concretejar-large-webp.webp 2x"
                         type="image/webp">
-                    <source srcset="assets/sunglasses-medium-webp.webp" media="(min-width: 769px)"
+                    <source srcset="assets/concretejar-medium-jpg.jpg 1x, assets/concretejar-large-jpg.jpg 2x">
+                    <img src="assets/concretejar-medium-jpg.jpg" alt="en grå betongburk i form av ett ansikte"
+                        loading="lazy">
+                </picture>
+
+                <picture>
+                    <source srcset="assets/balloon-medium-webp.webp 1x, assets/balloon-large-webp.webp 2x"
                         type="image/webp">
-                    <source srcset="assets/sunglasses-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets/sunglasses-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/sunglasses-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/sunglasses-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets/sunglasses-small-jpg.jpg" alt="en par svarta solglasögon">
+                    <source srcset="assets/balloon-medium-jpg.jpg 1x, assets/balloon-large-jpg.jpg 2x">
+                    <img src="assets/balloon-medium-jpg.jpg" alt="en rosa avlång ballong" loading="lazy">
                 </picture>
+
                 <picture>
-                    <source srcset="assets/painting-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets/painting-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets/painting-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets/painting-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/painting-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/painting-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets/painting-small-jpg.jpg" alt="en tavla med vit ram och rosa-turkosa färger">
+                    <source srcset="assets/teacup-medium-webp.webp 1x, assets/teacup-large-webp.webp 2x"
+                        type="image/webp">
+                    <source srcset="assets/teacup-medium-jpg.jpg 1x, assets/teacup-large-jpg.jpg 2x">
+                    <img src="assets/teacup-medium-jpg.jpg" alt="en blommig tekopp i svart, orange och grönt"
+                        loading="lazy">
                 </picture>
+
                 <picture>
-                    <source srcset="assets/coffecup-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets/coffecup-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets/coffecup-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets/coffecup-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/coffecup-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/coffecup-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets/coffecup-small-jpg.jpg" alt="en vit kaffekopp med spår av kaffe">
+                    <source srcset="assets/sunglasses-medium-webp.webp 1x, assets/sunglasses-large-webp.webp 2x"
+                        type="image/webp">
+                    <source srcset="assets/sunglasses-medium-jpg.jpg 1x, assets/sunglasses-large-jpg.jpg 2x">
+                    <img src="assets/sunglasses-medium-jpg.jpg" alt="ett par svarta solglasögon" loading="lazy">
                 </picture>
+
                 <picture>
-                    <source srcset="assets/metaljar-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets//metaljar-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets//metaljar-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-
-                    <source srcset="assets//metaljar-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets//metaljar-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets//metaljar-small-jpg.jpg" media="(min-width: 320px)">
-
-                    <img src="assets//metaljar-small-jpg.jpg" alt="en brun och guldig metallburk i retrostil">
+                    <source srcset="assets/painting-medium-webp.webp 1x, assets/painting-large-webp.webp 2x"
+                        type="image/webp">
+                    <source srcset="assets/painting-medium-jpg.jpg 1x, assets/painting-large-jpg.jpg 2x">
+                    <img src="assets/painting-medium-jpg.jpg" alt="en tavla med vit ram och rosa-turkosa färger"
+                        loading="lazy">
                 </picture>
+
                 <picture>
-                    <source srcset="assets/toothbrush-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                    <source srcset="assets/toothbrush-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                    <source srcset="assets/toothbrush-small-webp.webp" media="(min-width: 320px)" type="image/webp">
+                    <source srcset="assets/coffecup-medium-webp.webp 1x, assets/coffecup-large-webp.webp 2x"
+                        type="image/webp">
+                    <source srcset="assets/coffecup-medium-jpg.jpg 1x, assets/coffecup-large-jpg.jpg 2x">
+                    <img src="assets/coffecup-medium-jpg.jpg" alt="en vit kaffekopp med spår av kaffe" loading="lazy">
+                </picture>
 
-                    <source srcset="assets/toothbrush-large-jpg.jpg" media="(min-width: 1024px)">
-                    <source srcset="assets/toothbrush-medium-jpg.jpg" media="(min-width: 769px)">
-                    <source srcset="assets/toothbrush-small-jpg.jpg" media="(min-width: 320px)">
+                <picture>
+                    <source srcset="assets/metaljar-medium-webp.webp 1x, assets/metaljar-large-webp.webp 2x"
+                        type="image/webp">
+                    <source srcset="assets/metaljar-medium-jpg.jpg 1x, assets/metaljar-large-jpg.jpg 2x">
+                    <img src="assets/metaljar-medium-jpg.jpg" alt="en brun och guldig metallburk i retrostil"
+                        loading="lazy">
+                </picture>
 
-                    <img src="assets/toothbrush-small-jpg.jpg" alt="en blå tandborste">
+                <picture>
+                    <source srcset="assets/toothbrush-medium-webp.webp 1x, assets/toothbrush-large-webp.webp 2x"
+                        type="image/webp">
+                    <source srcset="assets/toothbrush-medium-jpg.jpg 1x, assets/toothbrush-large-jpg.jpg 2x">
+                    <img src="assets/toothbrush-medium-jpg.jpg" alt="en blå tandborste" loading="lazy">
                 </picture>
             </div>
         </div>
@@ -252,46 +191,38 @@
 
             <div>
                 <div class="product-item">
-                    <picture>
-                        <source srcset="assets/painting-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                        <source srcset="assets/painting-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                        <source srcset="assets/painting-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-            
-                        <source srcset="assets/painting-large-jpg.jpg" media="(min-width: 1024px)">
-                        <source srcset="assets/painting-medium-jpg.jpg" media="(min-width: 769px)">
-                        <source srcset="assets/painting-small-jpg.jpg" media="(min-width: 320px)">
-            
-                        <img src="assets/painting-small-jpg.jpg" alt="en tavla med vit ram och rosa-turkosa färger">
-                    </picture>
-                    <h3>Molly Sandén</h3>
+                    <a href="painting.html">
+                        <picture>
+                            <source srcset="assets/painting-medium-webp.webp 1x, assets/painting-large-webp.webp 2x"
+                                type="image/webp">
+                            <source srcset="assets/painting-medium-jpg.jpg 1x, assets/painting-large-jpg.jpg 2x">
+                            <img src="assets/painting-medium-jpg.jpg" alt="en tavla med vit ram och rosa-turkosa färger"
+                                loading="lazy">
+                        </picture>
+                        <h3>Molly Sandén</h3>
+                    </a>
                 </div>
                 <div class="product-item">
-                    <picture>
-                        <source srcset="assets/sunglasses-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                        <source srcset="assets/sunglasses-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                        <source srcset="assets/sunglasses-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-            
-                        <source srcset="assets/sunglasses-large-jpg.jpg" media="(min-width: 1024px)">
-                        <source srcset="assets/sunglasses-medium-jpg.jpg" media="(min-width: 769px)">
-                        <source srcset="assets/sunglasses-small-jpg.jpg" media="(min-width: 320px)">
-            
-                        <img src="assets/sunglasses-small-jpg.jpg" alt="ett par svarta solglasögon">
-                    </picture>
-                    <h3>Benjamin Ingrosso</h3>
+                    <a href="sunglasses.html">
+                        <picture>
+                            <source srcset="assets/sunglasses-medium-webp.webp 1x, assets/sunglasses-large-webp.webp 2x"
+                                type="image/webp">
+                            <source srcset="assets/sunglasses-medium-jpg.jpg 1x, assets/sunglasses-large-jpg.jpg 2x">
+                            <img src="assets/sunglasses-medium-jpg.jpg" alt="ett par svarta solglasögon" loading="lazy">
+                        </picture>
+                        <h3>Benjamin Ingrosso</h3>
+                    </a>
                 </div>
                 <div class="product-item">
-                    <picture>
-                        <source srcset="assets/hoodie-large-webp.webp" media="(min-width: 1024px)" type="image/webp">
-                        <source srcset="assets/hoodie-medium-webp.webp" media="(min-width: 769px)" type="image/webp">
-                        <source srcset="assets/hoodie-small-webp.webp" media="(min-width: 320px)" type="image/webp">
-            
-                        <source srcset="assets/hoodie-large-jpg.jpg" media="(min-width: 1024px)">
-                        <source srcset="assets/hoodie-medium-jpg.jpg" media="(min-width: 769px)">
-                        <source srcset="assets/hoodie-small-jpg.jpg" media="(min-width: 320px)">
-            
-                        <img src="assets/hoodie-small-jpg.jpg" alt="en mörklila hoodie">
-                    </picture>
-                    <h3>Nour <br> El Refai</h3>
+                    <a href="hoodie.html">
+                        <picture>
+                            <source srcset="assets/hoodie-medium-webp.webp 1x, assets/hoodie-large-webp.webp 2x"
+                                type="image/webp">
+                            <source srcset="assets/hoodie-medium-jpg.jpg 1x, assets/hoodie-large-jpg.jpg 2x">
+                            <img src="assets/hoodie-medium-jpg.jpg" alt="en mörklila hoodie" loading="lazy">
+                        </picture>
+                        <h3>Nour El Refai</h3>
+                    </a>
                 </div>
             </div>
         </div>

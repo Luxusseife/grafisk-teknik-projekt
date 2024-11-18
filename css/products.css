@@ -1,0 +1,13 @@
+/* STYLE-FIL FÖR PROJEKT I GRAFISK TEKNIK FÖR WEBB. JELI2308. */
+/* STYLE FÖR PRODUKTSIDAN. */
+
+/* Bilder på produktsidan. */
+.our-products {
+    text-align: center;
+}
+
+/* Bilder på produktsidan. */
+.our-products img {
+    width: 300px;
+    height: 300px;
+}

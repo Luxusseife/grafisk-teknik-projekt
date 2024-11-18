@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,20 @@
 
     <!-- Länkar till CSS- och JS-filer samt favicon, FontAwesome och Google-fonts. -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/products.css">
+
     <script src="js/main.js"></script>
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <script src="https://kit.fontawesome.com/e49202e377.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Poetsen+One&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
     <!-- Header med logotyp och navigation. -->
@@ -44,21 +50,85 @@
             <p>Du är här: <a href="index.html">Hem</a> / <a href="products.html">Produkter</a></p>
         </div>
 
-        <section>
+        <h1>Våra produkter</h1>
 
-            <a href="ballon.html">Ballong uppblåst av Johan Glans</a>
-            <br>
-            <a href="coffeecup.html">Kaffekopp med Jay Smiths fingeravtryck</a>
-            <br>
-            <a href="hoodie.html">Hoodie med parfym- och svettlukt från Nour El Refai</a>
-            <br>
-            <a href="painting.html">Tavla målad och signerad av Molly Sandén</a>
-            <br>
-            <a href="sunglasses.html">Solglasögon burna av Benjamin Ingrosso</a>
-            <br>
-            <a href="papermug.html">Vattenglas med Måns Möllers fingeravtryck</a>
+        <div class="our-products">
+            <div class="product-item">
+                <a href="ballon.html">
+                    <picture>
+                        <source srcset="assets/balloon-medium-webp.webp 1x, assets/balloon-large-webp.webp 2x"
+                            type="image/webp">
+                        <source srcset="assets/balloon-medium-jpg.jpg 1x, assets/balloon-large-jpg.jpg 2x">
+                        <img src="assets/balloon-medium-jpg.jpg" alt="en rosa avlång ballong" loading="lazy">
+                    </picture>
+                </a>
+                <h3>Ballong - Johan Glans</h3>
+            </div>
 
-        </section>
+            <div class="product-item">
+                <a href="coffeecup.html">
+                    <picture>
+                        <source srcset="assets/coffecup-medium-webp.webp 1x, assets/coffecup-large-webp.webp 2x"
+                            type="image/webp">
+                        <source srcset="assets/coffecup-medium-jpg.jpg 1x, assets/coffecup-large-jpg.jpg 2x">
+                        <img src="assets/coffecup-medium-jpg.jpg" alt="en vit kaffekopp med spår av kaffe"
+                            loading="lazy">
+                    </picture>
+                </a>
+                <h3>Kaffekopp - Jay Smith</h3>
+            </div>
+
+            <div class="product-item">
+                <a href="hoodie.html">
+                    <picture>
+                        <source srcset="assets/hoodie-medium-webp.webp 1x, assets/hoodie-large-webp.webp 2x"
+                            type="image/webp">
+                        <source srcset="assets/hoodie-medium-jpg.jpg 1x, assets/hoodie-large-jpg.jpg 2x">
+                        <img src="assets/hoodie-medium-jpg.jpg" alt="en mörklila hoodie" loading="lazy">
+                    </picture>
+                </a>
+                <h3>Nour El Refai</h3>
+
+            </div>
+
+            <div class="product-item">
+                <a href="sunglasses.html">
+                    <picture>
+                        <source srcset="assets/sunglasses-medium-webp.webp 1x, assets/sunglasses-large-webp.webp 2x"
+                            type="image/webp">
+                        <source srcset="assets/sunglasses-medium-jpg.jpg 1x, assets/sunglasses-large-jpg.jpg 2x">
+                        <img src="assets/sunglasses-medium-jpg.jpg" alt="ett par svarta solglasögon" loading="lazy">
+                    </picture>
+                </a>
+                <h3>Solglasögon - Benjamin Ingrosso</h3>
+            </div>
+
+            <div class="product-item">
+                <a href="papercup.html">
+                    <picture>
+                        <source srcset="assets/papercup-medium-webp.webp 1x, assets/papercup-large-webp.webp 2x"
+                            type="image/webp">
+                        <source srcset="assets/papercup-medium-jpg.jpg 1x, assets/papercup-large-jpg.jpg 2x">
+                        <img src="assets/papercup-medium-jpg.jpg" alt="en pappersmugg med färgglada ballonger"
+                            loading="lazy">
+                    </picture>
+                </a>
+                <h3>Pappersmugg - Måns Möller</h3>
+            </div>
+
+            <div class="product-item">
+                <a href="painting.html">
+                    <picture>
+                        <source srcset="assets/painting-medium-webp.webp 1x, assets/painting-large-webp.webp 2x"
+                            type="image/webp">
+                        <source srcset="assets/painting-medium-jpg.jpg 1x, assets/painting-large-jpg.jpg 2x">
+                        <img src="assets/painting-medium-jpg.jpg" alt="en tavla med vit ram och rosa-turkosa färger"
+                            loading="lazy">
+                    </picture>
+                </a>
+                <h3>Tavla - Molly Sandén</h3>
+            </div>
+        </div>
     </main>
 
     <!-- Footer med kontaktuppgifter och logotyp (för större skärmar). -->
@@ -67,7 +137,7 @@
             <h3>KONTAKT</h3>
             <p>
                 <i class="fa-solid fa-location-dot"></i>Kändisgatan 6, 123 45
-                    Stockholm (lager)</a>
+                Stockholm (lager)</a>
             </p>
             <p>
                 <i class="fa-solid fa-phone"></i> 08-123 45 123
@@ -81,6 +151,7 @@
             <a href="index.html"><img src="assets/logo.png" id="footer-logo" alt="logotyp"></a>
         </div>
     </footer>
-    
+
 </body>
+
 </html>

@@ -1,0 +1,61 @@
+/* STYLE-FIL FÖR PROJEKT I GRAFISK TEKNIK FÖR WEBB. JELI2308. */
+/* STYLE FÖR INDEX. */
+
+/* Container för bildkarusell. */
+.carousel-container {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* Bildkarusell. */
+.img-carousel {
+    display: inline-block;
+    animation: 45s carousel infinite linear;
+}
+
+/* Bilder inom bildkarusell. */
+.img-carousel img {
+    width: 300px;
+    height: 300px;
+    margin: 0.5rem;
+}
+
+/* Animation för bildkarusell. */
+@keyframes carousel {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+/* Brödsmulor. */
+#breadcrumbs {
+    text-align: left;
+}
+
+/* Produktbilder på startsidan under "nyheter". */
+.product-item {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    display: block;
+}
+
+.product-item h3 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    background: rgba(0, 0, 0, 0.35);
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5em;
+}

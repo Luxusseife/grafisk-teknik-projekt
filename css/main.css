@@ -1,4 +1,5 @@
 /* STYLE-FIL FÖR PROJEKT I GRAFISK TEKNIK FÖR WEBB. JELI2308. */
+/* ÖVERGRIPANDE STYLE. */
 
 /* Normalisering. */
 * {
@@ -18,12 +19,19 @@ body {
 /* Rubriker. */
 h1 {
     font-family: "Pacifico", "Trebuchet MS", sans-serif;
-    text-align: left;
+    text-align: center;
     margin: 1rem;
 }
 
 h2 {
     font-family: "Pacifico", "Trebuchet MS", sans-serif;
+    text-align: center;
+    background-color: #bcece0;
+    padding: 1rem;
+    margin: 2rem 0 0 0;
+}
+
+h3:not(footer h3) {
     text-align: center;
     background-color: #bcece0;
     padding: 1rem;
@@ -114,65 +122,7 @@ header .fa-solid {
 /* Main. */
 main {
     background-color: #ffffff;
-}
-
-/* Container för bildkarusell. */
-.carousel-container {
-    overflow: hidden;
-    white-space: nowrap;
-}
-
-/* Bildkarusell. */
-.img-carousel {
-    display: inline-block;
-    animation: 45s carousel infinite linear;
-}
-
-/* Bilder inom bildkarusell. */
-.img-carousel img {
-    width: 300px;
-    height: 300px;
-    margin: 0.5rem;
-}
-
-/* Animation för bildkarusell. */
-@keyframes carousel {
-    from {
-        transform: translateX(0);
-    }
-
-    to {
-        transform: translateX(-100%);
-    }
-}
-
-/* Brödsmulor. */
-#breadcrumbs {
-    text-align: left;
-}
-
-/* Produktbilder på startsidan under "nyheter". */
-.product-item {
-    position: relative;
-    display: inline-block;
-    text-align: center;
-}
-
-.product-item img {
-    width: 100%;
-    display: block;
-}
-
-.product-item h3 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -40%);
-    background: rgba(0, 0, 0, 0.35);
-    color: #fff;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 1.5em;
+    margin: 0 0 3rem 0;
 }
 
 /* Footer. */
@@ -181,7 +131,7 @@ footer {
     height: 185px;
     color: #ffffff;
     margin-top: auto;
-    padding: 1rem 1.5rem;
+    padding: 2rem 1.5rem;
     line-height: 1.6;
 }
 
@@ -258,7 +208,7 @@ footer .fa-envelope {
     footer {
         display: flex;
         justify-content: space-between;
-        padding: 1rem 2rem;
+        padding: 2rem;
     }
 
     /* Logotyp. */
