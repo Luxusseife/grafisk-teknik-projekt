@@ -1,2 +1,13 @@
 /* STYLE-FIL FÖR PROJEKT I GRAFISK TEKNIK FÖR WEBB. JELI2308. */
 /* STYLE FÖR OM-SIDAN. */
+
+/* Produktbilder på startsidan under "nyheter". */
+.webdeveloper {
+    display: inline-block;
+    text-align: center;
+}
+
+.webdeveloper img {
+    width: 100%;
+    height: auto;
+}

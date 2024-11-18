@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,21 @@
 
     <!-- Länkar till CSS- och JS-filer samt favicon, FontAwesome och Google-fonts. -->
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about.css">
+
     <script src="js/main.js"></script>
+
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <script src="https://kit.fontawesome.com/e49202e377.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&family=Poetsen+One&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
     <!-- Header med logotyp och navigation. -->
@@ -43,6 +50,44 @@
         <div id="breadcrumbs">
             <p>Du är här: <a href="index.html">Hem</a> / <a href="about.html">Om oss</a></p>
         </div>
+
+        <h1>Om oss</h1>
+
+        <p>
+            Kändisprylar är en nystartad onlinebutik vars fokus är att tillhandahålla diverse prylar skapade och/eller
+            använda av olika kändisar; artister, komiker, programledare eller influencers. Vi på Kändisprylar älskar
+            kändisar och håller oss uppdaterade med de senaste nyheterna och skvallret för att få tillgång till prylar
+            med förmågan att förgylla ditt liv och hem.
+            <br>
+            <br>
+            Varje pryl är starkt anknuten till en kändis med en plats och ett syfte samt med något typ av spår av
+            kändisen. Det ingår alltid ett äkthetsbevis vilket gör prylen unik och värdefull.
+        </p>
+
+        <h2>Om webbutvecklaren</h2>
+
+        <div class="webdeveloper">
+            <picture>
+                <source srcset="assets/JL-medium-webp.webp 1x, assets/JL-large-webp.webp 2x" type="image/webp">
+                <source srcset="assets/JL-medium-jpg.jpg 1x, assets/JL-large-jpg.jpg 2x">
+                <img src="assets/LJ-medium-jpg.jpg" alt="Jenny Lind, webbutvecklare" loading="lazy">
+            </picture>
+        </div>
+
+        <p>
+            Webbplatsen är utvecklad och skapad av Jenny Lind som examinerande projektuppgift för kursen Grafisk Teknik
+            för Webb inom ramen för programmet Webbutveckling vid Mittuniversitetet i Sundsvall.
+            <br>
+            <br>
+            Webbplatsen är skapad med HTML, CSS och lite JavaScript. Onlineverktygen Canva och Figma har använts för
+            planering i form av moodboard och designskisser medans Visual Studio Code och en lokal liveserver har varit
+            utvecklingsmiljön. 
+            <br>
+            <br>
+            Grafiskt material i form av logotyp, bilder och film är skapat och behandlat av webbutvecklaren själv med
+            hjälp av verktygen Photoshop och Openshot Editor samt online-kompressorerna TinyPNG och Squoosh. Ikonerna på
+            webbplatsen är hämtade på FontAwesome.
+        </p>
     </main>
 
     <!-- Footer med kontaktuppgifter och logotyp (för större skärmar). -->
@@ -51,7 +96,7 @@
             <h3>KONTAKT</h3>
             <p>
                 <i class="fa-solid fa-location-dot"></i>Kändisgatan 6, 123 45
-                    Stockholm (lager)</a>
+                Stockholm (lager)</a>
             </p>
             <p>
                 <i class="fa-solid fa-phone"></i> 08-123 45 123
@@ -65,6 +110,7 @@
             <a href="index.html"><img src="assets/logo.png" id="footer-logo" alt="logotyp"></a>
         </div>
     </footer>
-    
+
 </body>
+
 </html>
