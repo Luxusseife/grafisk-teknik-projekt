@@ -31,11 +31,6 @@
     }
 }
 
-/* Brödsmulor. */
-#breadcrumbs {
-    text-align: left;
-}
-
 /* Produktbilder på startsidan under "nyheter". */
 .product-item {
     position: relative;
@@ -43,16 +38,19 @@
     text-align: center;
 }
 
+/* Bild på produktnyhet. */
 .product-item img {
     width: 100%;
+    max-width: 425px;
     display: block;
 }
 
+/* Text över produktnyheterna. */
 .product-item h3 {
     position: absolute;
-    top: 40%;
+    top: 55%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -50%);
     background: rgba(0, 0, 0, 0.35);
     color: #ffffff;
     padding: 10px;

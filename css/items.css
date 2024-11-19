@@ -1,2 +1,74 @@
 /* STYLE-FIL FÖR PROJEKT I GRAFISK TEKNIK FÖR WEBB. JELI2308. */
 /* STYLE FÖR INDIVIDUELLA PRODUKTSIDOR. */
+
+/* Container för produktbild under individuella produktsidor. */
+.product-img {
+    display: inline-block;
+    text-align: center;
+}
+
+/* Bild. */
+.product-img img {
+    width: 100%;
+    max-width: 425px;
+    height: auto;
+}
+
+/* Annorlunda H2 på individuella produktsidorna. */
+.connection {
+    background-color: transparent;
+    font-family: "Josefin Sans", Verdana, sans-serif;
+    text-align: left;
+    margin-top: 0;
+}
+
+/* Lista med egenskaper för produkt. */
+.properties {
+    margin: 1rem 2rem;
+    line-height: 1.6;
+}
+
+/* Rubrik för pris. */
+.price {
+    background-color: transparent;
+    text-align: left;
+    margin: 2rem 0 0 1rem;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+/* Lägg i varukorgen-knapp-container. */
+.button {
+    display: flex;
+    justify-content: left;
+    margin: 1rem 0 0 1rem;
+}
+
+/* Lägg i varukorgen-knapp. */
+.button button {
+    font-family: "Josefin Sans", Verdana, sans-serif;
+    background-color: #f652a0;
+    border: none;
+    color: #ffffff;
+    padding: 1.5rem 4rem;
+    margin: 0.5rem 0 0 0;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+/* Annorlunda H2 för produktfilms-rubrik. */ 
+.movie-h2 {
+    margin: 3rem 0 0 0;
+}
+
+/* Container för iframe. */
+.movie-container {
+    display: flex;
+    margin: 0 0 3rem 0;
+}
+
+/* iframe. */
+.iframe {
+    width: 100%;
+    height: 315px;
+}

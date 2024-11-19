@@ -11,3 +11,11 @@
     width: 300px;
     height: 300px;
 }
+
+/* Annorlunda H2 på produktsidan. */
+.celebrity {
+    background-color: #bcece0;
+    font-family: "Josefin Sans", Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+}

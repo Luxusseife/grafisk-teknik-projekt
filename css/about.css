@@ -1,13 +1,26 @@
 /* STYLE-FIL FÖR PROJEKT I GRAFISK TEKNIK FÖR WEBB. JELI2308. */
 /* STYLE FÖR OM-SIDAN. */
 
-/* Produktbilder på startsidan under "nyheter". */
+/* Container för webbutvecklar-bild. */
 .webdeveloper {
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
+/* Bild på webbutvecklaren. */
 .webdeveloper img {
     width: 100%;
+    max-width: 425px;
     height: auto;
+}
+
+/* Ansvarsfriskrivnings-text- */
+.disclaimer {
+    margin: 3rem 0 0 1rem;
+}
+
+/* Ikon, utropstecken. */
+.fa-solid {
+    color: #ff0000;
+    padding-right: 0.5rem;
 }
