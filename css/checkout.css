@@ -5,7 +5,7 @@
 table {
     width: 100%;
     border-collapse: collapse;
-    margin: 2rem 0;
+    margin: 2rem 0 0 0;
     font-size: 1rem;
     text-align: right;
 }
@@ -17,7 +17,7 @@ thead, tfoot {
 }
 
 /* Rader i tabellen. */
-td {
+td, th {
     padding: 0.75rem 0;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
@@ -34,11 +34,6 @@ td {
 .product-in-checkout img {
     width: 100px;
     height: auto;
-}
-
-/* Annorlunda H2 för varukorgen. */
-.delivery-h2 {
-    background-color: transparent;
 }
 
 /* Formulär. */
@@ -63,12 +58,19 @@ form input:not(.button) {
     padding-left: 5px;
 }
 
-/* Slutför köp-knapp. */
-.button {
+/* Lägg i varukorgen-knapp-container. */
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 1rem;
+}
+
+/* Knapp. */
+.button{
     font-family: "Josefin Sans", Verdana, sans-serif;
     background-color: #f652a0;
-    border: none;
     color: #ffffff;
+    border: none;
     padding: 1.5rem 4rem;
     margin: 2rem 0;
     font-size: 1.5em;

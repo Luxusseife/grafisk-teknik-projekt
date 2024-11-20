@@ -47,42 +47,47 @@
 
     <!-- Main för enskild produkt med brödsmulor samt bild och information om produkten. -->
     <main>
-        <div id="breadcrumbs">
+        <nav id="breadcrumbs">
             <p>Du är här: <a href="index.html">Hem</a> / <a href="products.html">Produkter</a> / <a
                     href="sunglasses.html">Solglasögon</a></p>
-        </div>
+        </nav>
+        <section>
+            <h1>Solglasögon</h1>
 
-        <h1>Solglasögon</h1>
+            <div class="product-img">
+                <picture>
+                    <source srcset="assets/sunglasses-medium-webp.webp 1x, assets/sunglasses-large-webp.webp 2x"
+                        type="image/webp">
+                    <source srcset="assets/sunglasses-medium-jpg.jpg 1x, assets/sunglasses-large-jpg.jpg 2x">
+                    <img src="assets/sunglasses-medium-jpg.jpg" alt="ett par svarta solglasögon" loading="lazy">
+                </picture>
+            </div>
 
-        <div class="product-img">
-            <picture>
-                <source srcset="assets/sunglasses-medium-webp.webp 1x, assets/sunglasses-large-webp.webp 2x" type="image/webp">
-                <source srcset="assets/sunglasses-medium-jpg.jpg 1x, assets/sunglasses-large-jpg.jpg 2x">
-                <img src="assets/sunglasses-medium-jpg.jpg" alt="ett par svarta solglasögon" loading="lazy">
-            </picture>
-        </div>
+            <h2 class="connection-h2">Anknytning till: Benjamin Ingrosso</h2>
 
-        <h2 class="connection-h2">Anknytning till: Benjamin Ingrosso</h2>
+            <p>
+                Dessa solglasögon i förträffligt skick har använts av ingen mindre än artisten och låtskrivaren Benjamin
+                Ingrosso! Solglasögonen användes backstage och en kort stund in på Benjamins framträdande på Way Out
+                West
+                den 10 augusti 2024.
+                <br>
+                <br>
+                Särskilda kvaliteter:
+            </p>
 
-        <p>
-            Dessa solglasögon i förträffligt skick har använts av ingen mindre än artisten och låtskrivaren Benjamin
-            Ingrosso! Solglasögonen användes backstage och en kort stund in på Benjamins framträdande på Way Out West
-            den 10 augusti 2024.
-            <br>
-            <br>
-            Särskilda kvaliteter:
+            <ul class="properties">
+                <li>Kvarvarande svett och fett samt doft av parfym och/eller hårspray</li>
+                <li>Äkthetsbevis ingår</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h3 class="price">Pris: 1795 kr</h3>
 
-        <ul class="properties">
-            <li>Kvarvarande svett och fett samt doft av parfym och/eller hårspray</li>
-            <li>Äkthetsbevis ingår</li>
-        </ul>
-        </p>
-
-        <h3 class="price">Pris: 1795 kr</h3>
-
-        <div class="button">
-            <button>LÄGG I VARUKORGEN</button>
-        </div>
+            <div class="button">
+                <button>LÄGG I VARUKORGEN</button>
+            </div>
+        </section>
     </main>
 
     <!-- Footer med kontaktuppgifter och logotyp (för större skärmar). -->
@@ -91,7 +96,7 @@
             <h3>KONTAKT</h3>
             <p>
                 <i class="fa-solid fa-location-dot"></i>Kändisgatan 6, 123 45
-                Stockholm (lager)</a>
+                Stockholm (lager)
             </p>
             <p>
                 <i class="fa-solid fa-phone"></i> 08-123 45 123
