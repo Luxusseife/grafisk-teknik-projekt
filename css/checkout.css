@@ -1,0 +1,83 @@
+/* STYLE-FIL FÖR PROJEKT I GRAFISK TEKNIK FÖR WEBB. JELI2308. */
+/* STYLE FÖR VARUKORGEN. */
+
+/* Tabellen. */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    font-size: 1rem;
+    text-align: right;
+}
+
+/* Tabellhuvud och tabellfot. */
+thead, tfoot {
+    background-color: #bcece0;
+    font-weight: bold;
+}
+
+/* Rader i tabellen. */
+td {
+    padding: 0.75rem 0;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
+
+/* Produktinformation i tabellen. */
+.product-in-checkout {
+    display: flex;
+    justify-content: center;
+}
+
+/* Bild i tabellen. */
+.product-in-checkout img {
+    width: 100px;
+    height: auto;
+}
+
+/* Annorlunda H2 för varukorgen. */
+.delivery-h2 {
+    background-color: transparent;
+}
+
+/* Formulär. */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Labels. */
+form label {
+    display: block;
+    margin: 1rem 0 0.25rem 0;
+}
+
+/* Inputfält förutom knapp. */
+form input:not(.button) {
+    height: 2rem;
+    padding-left: 5px;
+}
+
+/* Slutför köp-knapp. */
+.button {
+    font-family: "Josefin Sans", Verdana, sans-serif;
+    background-color: #f652a0;
+    border: none;
+    color: #ffffff;
+    padding: 1.5rem 4rem;
+    margin: 2rem 0;
+    font-size: 1.5em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+/* Hover-effekt på knapp (som görs smidig med transition ovan). */
+.button:hover {
+    background-color: #36eee0;
+    color: #000000;
+}

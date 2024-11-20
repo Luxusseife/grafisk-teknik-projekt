@@ -15,7 +15,7 @@
 }
 
 /* Annorlunda H2 på individuella produktsidorna. */
-.connection {
+.connection-h2 {
     background-color: transparent;
     font-family: "Josefin Sans", Verdana, sans-serif;
     text-align: left;
@@ -41,7 +41,7 @@
 .button {
     display: flex;
     justify-content: left;
-    margin: 1rem 0 0 1rem;
+    margin: 1rem 1rem;
 }
 
 /* Lägg i varukorgen-knapp. */
@@ -52,8 +52,15 @@
     color: #ffffff;
     padding: 1.5rem 4rem;
     margin: 0.5rem 0 0 0;
-    font-size: 1.25em;
+    font-size: 1.5em;
     cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover-effekt på knapp (som görs smidig med transition ovan). */
+.button button:hover {
+    background-color: #36eee0;
+    color: #000000;
 }
 
 /* Annorlunda H2 för produktfilms-rubrik. */ 
