@@ -173,9 +173,10 @@
             </div>
         </div>
 
-        <!-- Div med välkomstmeddelande/information om webbplatsens syfte. -->
-        <div class="welcome-text">
-            <h1>Välkommen!</h1>
+        <!-- Sektion med välkomstmeddelande/information om webbplatsens syfte. -->
+        <h1>Välkommen!</h1>
+
+        <section class="welcome-text">
             <p>
                 Detta är sidan för dig som älskar kändisar och som <i>nästan</i> kan betala hur mycket som helst för att
                 äga något som skapats eller använts av din favoritkändis!
@@ -183,14 +184,13 @@
                 <br>
                 Klicka hem din egen kändispryl idag!
             </p>
-        </div>
+        </section>
 
-        <!-- Div med produktnyheter. -->
-        <div class="new-products">
-            <h2>Nyheter!</h2>
+        <!-- Sektion med produktnyheter. -->
+        <h2>Nyheter!</h2>
 
-            <div>
-                <div class="product-item">
+        <section class="new-products">
+                <article class="product-item">
                     <a href="painting.html">
                         <picture>
                             <source srcset="assets/painting-medium-webp.webp 1x, assets/painting-large-webp.webp 2x"
@@ -201,19 +201,8 @@
                         </picture>
                         <h3>Molly Sandén</h3>
                     </a>
-                </div>
-                <div class="product-item">
-                    <a href="sunglasses.html">
-                        <picture>
-                            <source srcset="assets/sunglasses-medium-webp.webp 1x, assets/sunglasses-large-webp.webp 2x"
-                                type="image/webp">
-                            <source srcset="assets/sunglasses-medium-jpg.jpg 1x, assets/sunglasses-large-jpg.jpg 2x">
-                            <img src="assets/sunglasses-medium-jpg.jpg" alt="ett par svarta solglasögon" loading="lazy">
-                        </picture>
-                        <h3>Benjamin Ingrosso</h3>
-                    </a>
-                </div>
-                <div class="product-item">
+                </article>
+                <article class="product-item">
                     <a href="hoodie.html">
                         <picture>
                             <source srcset="assets/hoodie-medium-webp.webp 1x, assets/hoodie-large-webp.webp 2x"
@@ -223,9 +212,19 @@
                         </picture>
                         <h3>Nour El Refai</h3>
                     </a>
-                </div>
-            </div>
-        </div>
+                </article>
+                <article class="product-item">
+                    <a href="coffeecup.html">
+                        <picture>
+                            <source srcset="assets/coffecup-medium-webp.webp 1x, assets/coffecup-large-webp.webp 2x"
+                                type="image/webp">
+                            <source srcset="assets/coffecup-medium-jpg.jpg 1x, assets/coffecup-large-jpg.jpg 2x">
+                            <img src="assets/coffecup-medium-jpg.jpg" alt="en vit kaffekopp med spår av kaffe" loading="lazy">
+                        </picture>
+                        <h3>Jay Smith</h3>
+                    </a>
+                </article>
+        </section>
     </main>
 
     <!-- Footer med kontaktuppgifter (och logotyp för större skärmar). -->

@@ -1,21 +1,36 @@
 /* STYLE-FIL FÖR PROJEKT I GRAFISK TEKNIK FÖR WEBB. JELI2308. */
 /* STYLE FÖR PRODUKTSIDAN. */
 
-/* Bilder på produktsidan. */
+/* Container för bilder på produktsidan. */
 .our-products {
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem auto 3rem auto;
 }
 
-/* Bilder på produktsidan. */
-.our-products img {
-    width: 300px;
-    height: 300px;
+/* Bilder på produktsidan (varje artikel). */
+.product-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+    height: auto;
 }
 
-/* Annorlunda H2 på produktsidan. */
+/* Bildstorlek. */
+.product-item img {
+    width: 100%;
+}
+
+/* Annorlunda H2 på produktsidan, under varje bild. */
 .celebrity-h2 {
-    background-color: #bcece0;
     font-family: "Josefin Sans", Verdana, sans-serif;
+    font-size: 1.2rem;
     text-align: center;
-    margin: 0;
+    background-color: #bcece0;
+    margin-top: 10px;
+    max-width: 100%;
+    width: 100%;
 }

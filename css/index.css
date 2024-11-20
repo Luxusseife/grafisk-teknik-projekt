@@ -31,18 +31,23 @@
     }
 }
 
-/* Produktbilder på startsidan under "nyheter". */
-.product-item {
-    position: relative;
-    display: inline-block;
-    text-align: center;
+/* Container för bilder på produktsidan. */
+.new-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-/* Bild på produktnyhet. */
+/* Bilder på produktsidan (varje artikel). */
+.product-item {
+    position: relative;
+    max-width: 360px;
+    height: auto;
+}
+
+/* Bildstorlek. */
 .product-item img {
     width: 100%;
-    max-width: 425px;
-    display: block;
 }
 
 /* Text över produktnyheterna. */
@@ -55,5 +60,14 @@
     color: #ffffff;
     padding: 10px;
     border-radius: 5px;
-    font-size: 1.5em;
+    font-size: 1.25em;
+}
+
+/* Mediaquery för större skärmar. */
+@media (min-width: 426px) {
+
+    /* Ändrar margin för p. */
+    p:not(footer p) {
+        margin: 2rem auto;
+    }
 }
