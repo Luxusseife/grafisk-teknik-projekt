@@ -9,6 +9,8 @@
     <!-- Länkar till CSS- och JS-filer samt favicon, FontAwesome och Google-fonts. -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/items.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox-plus-jquery.min.js" defer></script>
 
     <script src="js/main.js"></script>
 
@@ -56,12 +58,15 @@
 
         <div class="all-info">
             <div class="product-img">
-                <picture>
-                    <source srcset="assets/sunglasses-medium-webp.webp 1x, assets/sunglasses-large-webp.webp 2x"
-                        type="image/webp">
-                    <source srcset="assets/sunglasses-medium-jpg.jpg 1x, assets/sunglasses-large-jpg.jpg 2x">
-                    <img src="assets/sunglasses-medium-jpg.jpg" alt="ett par svarta solglasögon" loading="lazy">
-                </picture>
+                <a href="assets/sunglasses-large-jpg.jpg" target="_blank" data-lightbox="sunglasses"
+                    data-title="Solglasögon med anknytning till Benjamin Ingrosso">
+                    <picture>
+                        <source srcset="assets/sunglasses-medium-webp.webp 1x, assets/sunglasses-large-webp.webp 2x"
+                            type="image/webp">
+                        <source srcset="assets/sunglasses-medium-jpg.jpg 1x, assets/sunglasses-large-jpg.jpg 2x">
+                        <img src="assets/sunglasses-medium-jpg.jpg" alt="ett par svarta solglasögon" loading="lazy">
+                    </picture>
+                </a>
             </div>
 
             <section class="product-info">

@@ -9,6 +9,8 @@
     <!-- Länkar till CSS- och JS-filer samt favicon, FontAwesome och Google-fonts. -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/items.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox-plus-jquery.min.js" defer></script>
 
     <script src="js/main.js"></script>
 
@@ -56,12 +58,16 @@
 
         <div class="all-info">
             <div class="product-img">
-                <picture>
-                    <source srcset="assets/coffecup-medium-webp.webp 1x, assets/coffecup-large-webp.webp 2x"
-                        type="image/webp">
-                    <source srcset="assets/coffecup-medium-jpg.jpg 1x, assets/coffecup-large-jpg.jpg 2x">
-                    <img src="assets/coffecup-medium-jpg.jpg" alt="en vit kaffekopp med spår av kaffe" loading="lazy">
-                </picture>
+                <a href="assets/coffecup-large-jpg.jpg" target="_blank" data-lightbox="coffeecup"
+                    data-title="Kaffekopp med anknytning till Jay Smith">
+                    <picture>
+                        <source srcset="assets/coffecup-medium-webp.webp 1x, assets/coffecup-large-webp.webp 2x"
+                            type="image/webp">
+                        <source srcset="assets/coffecup-medium-jpg.jpg 1x, assets/coffecup-large-jpg.jpg 2x">
+                        <img src="assets/coffecup-medium-jpg.jpg" alt="en vit kaffekopp med spår av kaffe"
+                            loading="lazy">
+                    </picture>
+                </a>
             </div>
 
             <section class="product-info">

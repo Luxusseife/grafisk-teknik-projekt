@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KÄNDISPRYLAR | Produkter | Ballong</title>
 
-    <!-- Länkar till CSS- och JS-filer samt favicon, FontAwesome och Google-fonts. -->
+    <!-- Länkar till CSS- och JS-filer samt favicon, Lightbox, FontAwesome och Google-fonts. -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/items.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox-plus-jquery.min.js" defer></script>
 
     <script src="js/main.js"></script>
 
@@ -56,12 +58,15 @@
 
         <div class="all-info">
             <div class="product-img">
-                <picture>
-                    <source srcset="assets/balloon-medium-webp.webp 1x, assets/balloon-large-webp.webp 2x"
-                        type="image/webp">
-                    <source srcset="assets/balloon-medium-jpg.jpg 1x, assets/balloon-large-jpg.jpg 2x">
-                    <img src="assets/balloon-medium-jpg.jpg" alt="en rosa avlång ballong" loading="lazy">
-                </picture>
+                <a href="assets/balloon-large-jpg.jpg" target="_blank" data-lightbox="balloon"
+                    data-title="Ballong med anknytning till Johan Glans">
+                    <picture>
+                        <source srcset="assets/balloon-medium-webp.webp 1x, assets/balloon-large-webp.webp 2x"
+                            type="image/webp">
+                        <source srcset="assets/balloon-medium-jpg.jpg 1x, assets/balloon-large-jpg.jpg 2x">
+                        <img src="assets/balloon-medium-jpg.jpg" alt="en rosa avlång ballong" loading="lazy">
+                    </picture>
+                </a>
             </div>
 
             <section class="product-info">
