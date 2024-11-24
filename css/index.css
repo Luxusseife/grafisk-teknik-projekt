@@ -48,6 +48,7 @@
 /* Bildstorlek. */
 .product-item img {
     width: 100%;
+    height: auto;
 }
 
 /* Text över produktnyheterna. */

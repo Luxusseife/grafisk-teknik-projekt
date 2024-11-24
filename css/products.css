@@ -23,6 +23,7 @@
 /* Bildstorlek. */
 .product-item img {
     width: 100%;
+    height: auto;
 }
 
 /* Annorlunda H2 på produktsidan, under varje bild. */
