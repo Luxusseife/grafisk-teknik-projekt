@@ -122,11 +122,17 @@ header .fa-solid {
 /* Brödsmulor. */
 #breadcrumbs {
     text-align: left;
+    color: #000000;
 }
 
 /* Hover-effekt. */
 #breadcrumbs a:hover {
     text-decoration: none;
+}
+
+/* Besökt länk. */
+#breadcrumbs a:visited {
+    color: #000000;
 }
 
 /* Main. */
