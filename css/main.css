@@ -17,10 +17,11 @@ body {
 }
 
 /* Rubriker. */
-h1 {
+h1, section h1 {
     font-family: "Pacifico", "Trebuchet MS", sans-serif;
+    font-size: 2em;
     text-align: center;
-    margin: 2rem 0 0 0;
+    margin: 2rem 0 1rem 0;
 }
 
 h2 {
@@ -28,7 +29,7 @@ h2 {
     text-align: center;
     max-width: 1000px;
     background-color: #bcece0;
-    padding: 1rem;
+    padding: 1.5rem;
     margin: 3rem auto 0 auto;
 }
 
@@ -123,6 +124,7 @@ header .fa-solid {
     text-align: left;
 }
 
+/* Hover-effekt. */
 #breadcrumbs a:hover {
     text-decoration: none;
 }
@@ -150,6 +152,7 @@ footer a {
     text-decoration: underline;
 }
 
+/* Hover-effekt. */
 footer a:hover {
     text-decoration: none;
 }
@@ -176,7 +179,7 @@ footer .fa-envelope {
     display: none;
 }
 
-/* Mediaquery för större skärmar. */
+/* Mediaqueries för större skärmar. */
 @media (min-width: 769px) {
 
     /* Desktop-meny, länkar. */
@@ -222,6 +225,14 @@ footer .fa-envelope {
     /* Logotyp. */
     #footer-logo {
         display: block;
+    }
+}
+
+/* Mediaquery för större skärmar. */
+@media (min-width: 1920px) {
+    /* Ökar textstorleken. */
+    main {
+        font-size: larger;
     }
 }
 

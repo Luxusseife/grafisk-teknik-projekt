@@ -14,6 +14,11 @@
     height: auto;
 }
 
+/* Annorlunda h2 på denna sida. */
+.about-developer-h2 {
+    max-width: 600px;
+}
+
 /* Ansvarsfriskrivnings-text- */
 .disclaimer {
     margin: 3rem 0 0 1rem;
@@ -23,4 +28,31 @@
 .fa-solid {
     color: #ff0000;
     padding-right: 0.5rem;
+}
+
+/* Mediaqueries för större skärmar. */
+@media (min-width: 426px) {
+
+    /* Centrerar brödtexten. */
+    .about p {
+        margin: 1rem auto;
+    }
+
+    /* Ökar margin på bilden. */
+    .webdeveloper img {
+        margin: 2rem 0;
+    }
+
+    /* Centrerar disclaimer-text och ökar margin till stycket ovan. */
+    .disclaimer {
+        text-align: center;
+        margin: 3rem auto 1rem auto;
+    }
+}
+
+@media (min-width: 1920px) {
+    /* Ökar textstorleken. */
+    main {
+        font-size: larger;
+    }
 }

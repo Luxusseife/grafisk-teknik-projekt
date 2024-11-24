@@ -63,11 +63,18 @@
     font-size: 1.25em;
 }
 
-/* Mediaquery för större skärmar. */
+/* Mediaqueries för större skärmar. */
 @media (min-width: 426px) {
 
-    /* Ändrar margin för p. */
+    /* Centrerar brödtexten. */
     p:not(footer p) {
         margin: 2rem auto;
+    }
+}
+
+@media (min-width: 1920px) {
+    /* Ökar textstorleken. */
+    main {
+        font-size: larger;
     }
 }

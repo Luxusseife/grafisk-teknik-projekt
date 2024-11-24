@@ -6,6 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 1445px;
     gap: 2rem;
     margin: 3rem auto 3rem auto;
 }
@@ -33,4 +34,12 @@
     margin-top: 10px;
     max-width: 100%;
     width: 100%;
+}
+
+/* Mediaquery för större skärmar. */
+@media (min-width: 1920px) {
+    /* Ökar textstorleken. */
+    main {
+        font-size: larger;
+    }
 }
