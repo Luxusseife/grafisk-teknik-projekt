@@ -31,6 +31,11 @@
     }
 }
 
+/* Döljer andra uppsättningen av bildkarusellen i mobil-läget. */
+.second-carousel {
+    display: none;
+}
+
 /* Container för bilder på produktsidan. */
 .new-products {
     display: flex;
@@ -73,7 +78,16 @@
     }
 }
 
+@media (min-width: 769px) {
+
+/* Visar andra uppsättningen av bildkarusellen. */
+    .second-carousel {
+        display: inline-block;
+    }
+}
+
 @media (min-width: 1920px) {
+
     /* Ökar textstorleken. */
     main {
         font-size: larger;
