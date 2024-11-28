@@ -47,13 +47,13 @@
 .product-item {
     position: relative;
     max-width: 360px;
-    height: auto;
+    max-height: 360px;
 }
 
 /* Bildstorlek. */
 .product-item img {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 /* Text över produktnyheterna. */

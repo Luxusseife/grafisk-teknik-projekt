@@ -11,7 +11,7 @@
 .webdeveloper img {
     width: 100%;
     max-width: 425px;
-    height: auto;
+    max-height: 425px;
 }
 
 /* Annorlunda h2 på denna sida. */

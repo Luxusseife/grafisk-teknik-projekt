@@ -36,7 +36,7 @@ th {
 /* Bild i tabellen. */
 .product-in-checkout img {
     width: 100px;
-    height: auto;
+    height: 100px;
 }
 
 /* Formulär. */
