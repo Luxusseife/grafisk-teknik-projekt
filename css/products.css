@@ -24,6 +24,7 @@
 .product-item img {
     width: 100%;
     height: auto;
+    clip-path: inset(2px);
 }
 
 /* Annorlunda H2 på produktsidan, under varje bild. */
