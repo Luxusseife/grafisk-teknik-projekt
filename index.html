@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css">
 
-    <script src="js/main.js"></script>
+    <script src="js/main.js" defer></script>
 
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
     <script src="https://kit.fontawesome.com/e49202e377.js" crossorigin="anonymous"></script>
@@ -50,12 +50,8 @@
     <main>
         <div class="carousel-container">
             <div class="img-carousel">
-                <picture>
-                    <source srcset="assets/concretejar-medium-webp.webp 1x, assets/concretejar-large-webp.webp 2x"
-                        type="image/webp">
-                    <source srcset="assets/concretejar-medium-jpg.jpg 1x, assets/concretejar-large-jpg.jpg 2x">
-                    <img src="assets/concretejar-medium-jpg.jpg" alt="en grå betongburk i form av ett ansikte" fetch-priority="high">
-                </picture>
+                <img src="assets/concretejar-medium-jpg.jpg" alt="en grå betongburk i form av ett ansikte"
+                    fetchpriority="high">
 
                 <picture>
                     <source srcset="assets/balloon-medium-webp.webp 1x, assets/balloon-large-webp.webp 2x"
