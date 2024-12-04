@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KÄNDISPRYLAR | Om oss</title>
 
-    <!-- Länkar till CSS- och JS-filer samt favicon, FontAwesome och Google-fonts. -->
+    <!-- Länkar till CSS- och JS-filer samt favicon, Lightbox, FontAwesome och Google-fonts. -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox-plus-jquery.min.js" defer></script>
 
     <script src="js/main.js"></script>
 
@@ -70,11 +72,14 @@
             <h2 class="about-developer-h2">Om webbutvecklaren</h2>
 
             <div class="webdeveloper">
-                <picture>
-                    <source srcset="assets/JL-medium-webp.webp 1x, assets/JL-large-webp.webp 2x" type="image/webp">
-                    <source srcset="assets/JL-medium-jpg.jpg 1x, assets/JL-large-jpg.jpg 2x">
-                    <img src="assets/JL-medium-jpg.jpg" alt="Jenny Lind, webbutvecklare" loading="lazy">
-                </picture>
+                <a href="assets/JL-large-jpg.jpg" target="_blank" data-lightbox="webdeveloper"
+                    data-title="Webbutvecklaren Jenny Lind">
+                    <picture>
+                        <source srcset="assets/JL-medium-webp.webp 1x, assets/JL-large-webp.webp 2x" type="image/webp">
+                        <source srcset="assets/JL-medium-jpg.jpg 1x, assets/JL-large-jpg.jpg 2x">
+                        <img src="assets/JL-medium-jpg.jpg" alt="Jenny Lind, webbutvecklare" loading="lazy">
+                    </picture>
+                </a>
             </div>
 
             <p>
